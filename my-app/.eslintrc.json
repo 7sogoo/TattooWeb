@@ -1,7 +1,6 @@
 {
   "extends": ["next/core-web-vitals", "next/typescript"],
   "rules": {
-    "max-lines": ["error", { "code": 160 }],  // max length 160
     "no-unused-vars": "warn",                   // Warns on unused variables
     "eqeqeq": "error",                          // Enforce strict equality (===) 
     "indent": ["error", 2],                     // Enforce 2-space indentation
